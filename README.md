@@ -2,7 +2,7 @@
 Group 12's final project for SOFE 3700U
 
 ## DEMO
-For a demo of the application, visit http://stringscape.me/load2.php
+For a demo of the application, visit http://www.stringscape.me/load2.php
 
 ## DESCRIPTION
 Since 2014, the Faculty of Engineering and Applied Science at the University of Ontario Institute of Technology (UOIT) began an ambitious
