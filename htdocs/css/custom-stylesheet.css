@@ -1,0 +1,132 @@
+/*
+ * custom-stylesheet.css
+ * contains all custom classes used in the lab assignment
+ *
+ * INDEX
+ * 1.) default tag overides
+ * 2.) header classes and id's
+ * 3.) bootstrap overides
+ * 4.) alignments
+ * 5.) mouse interactions
+ * 6.) Assignment Specific CSS
+ */
+
+
+/* 1.) default tag overides */
+
+body {
+  background-color:#242424;
+  color:white;
+}
+
+hr {
+  margin-top:40px;
+  margin-bottom:35px;
+}
+
+
+/* 2.) header classes and id's */
+
+#header-image {
+  height:100%;
+  min-width:1200px;
+  min-height:700px;
+  position:relative;
+  left:50%;
+  top:50%;
+  transform:translate(-50%, -50%);
+}
+
+#header-image-container {
+  overflow:hidden;
+}
+
+#header-break {
+  margin-top:5px;
+  margin-bottom:20px;
+  width:95%;
+}
+
+#down-arrow {
+  position:absolute;
+  bottom:20px;
+  left:50%;
+  transform:translate(-50%, 0);
+}
+
+#title-span {
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%);
+  top:55px;
+  z-index:100;
+  white-space:nowrap;
+}
+
+#title {
+  color:white;
+  font-size:80px;
+  text-shadow:
+      2px 2px 0 #242424,
+    -2px -2px 0 #242424,
+     2px -2px 0 #242424,
+     -2px 2px 0 #242424,
+      2px 2px 0 #242424;
+}
+
+/* 3.) bootstrap overides */
+
+#main-container {
+  margin-top:25px;
+}
+
+
+/* 4.) alignments */
+
+.align-center {
+  margin:auto;
+}
+
+.align-vertical-center {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+
+/* 5.) mouse interactions */
+
+.content-hover:hover {
+  background: -webkit-radial-gradient(#525252, #242424); /*safari*/
+  background: -o-gradient(#525252, #242424); /*opera*/
+  background: -moz-radial-gradient(#525252, #242424); /*firefox*/
+  background: radial-gradient(#525252, #242424); /*standard*/
+}
+
+.content-hover a:hover {
+  text-decoration:none;
+}
+
+.downarrow {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+.downarrow:hover {
+      opacity: 0.5;
+}
+
+/* 6.) Assignment Specific CSS */
+
+.padbelow {
+  padding-bottom:70px;
+}
+*/ Note: we don't actually want our header bolded, it looks nicer without it so im making it h2 */
+h2{
+  font-weight: bold;
+}
+
+.nodot {
+  list-style-type: none;
+}
