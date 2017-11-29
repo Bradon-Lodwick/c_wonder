@@ -15,6 +15,6 @@ readable table that defines the collection of metrics.
 SETUP
 ----------
 To setup the database and application, a web server application such as xampp, wamp, or lamp should be used. Download one of these 
-server packages.  Once the server package is installed, use the create_database.sql file to load the database information into a new
-mysql database.  Once finished, the Inventory.php file will need to have a few values changed. On line 2, change the mysqli_connect file
-arguments to connect to your newly created database.  Connect to the given index.php file in the htdocs folder and setup is complete!.
+server packages. Once the server package is installed, use the create_database.sql file to load the database information into a new
+mysql database. Once finished, the Inventory.php file will need to have a few values changed. On line 2, change the mysqli_connect file
+arguments to connect to your newly created database. Connect to the given index.php file in the htdocs folder and setup is complete!
